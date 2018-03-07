@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 require 'request_headers_middleware/middleware'
+require 'request_headers_middleware/version'
 
 module RequestHeadersMiddleware # :nodoc:
   extend self
