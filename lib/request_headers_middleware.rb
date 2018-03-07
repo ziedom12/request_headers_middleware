@@ -15,6 +15,7 @@ module RequestHeadersMiddleware # :nodoc:
   end
 
   def setup(config)
+    puts 'DONE'
     if config.whitelist
       @whitelist = config.whitelist.map { |key| key.downcase.to_sym }
     end
