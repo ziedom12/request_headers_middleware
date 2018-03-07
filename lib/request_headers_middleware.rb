@@ -8,7 +8,7 @@ module RequestHeadersMiddleware # :nodoc:
   @whitelist = ['x-request-id'.to_sym]
   @blacklist = []
   @callbacks = []
-
+  puts 'DONE'
   def store
     RequestStore[:headers] ||= {}
   end
